@@ -18,7 +18,7 @@ public class controller {
 
     @RequestMapping("/select")
     public user select(int id){
-        System.out.println("查询成功");
+        System.out.println("查询成功1");
         return userService.select(id);
     }
 
