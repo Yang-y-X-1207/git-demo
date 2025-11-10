@@ -24,7 +24,7 @@ public class controller {
 
     @RequestMapping("/add")
     public int add(user temp_user){
-        System.out.println("添加成功");
+        System.out.println("添加成功1");
         userService.insert(temp_user);
         System.out.println(temp_user.getId());
         return temp_user.getId();
